@@ -51,13 +51,6 @@ Permite excluir um filme com o ID especificado. Retorna uma mensagem de sucesso 
    python app.py
    ```
 
-2. Acesse a API através de um cliente HTTP ou navegador nos seguintes endpoints:
-
-   - Consultar todos os filmes: [http://localhost:5000/filmes](http://localhost:5000/filmes)
-   - Consultar um filme específico: [http://localhost:5000/filmes/<filme_id>](http://localhost:5000/filmes/<filme_id>)
-   - Adicionar um novo filme: Envie uma solicitação POST para [http://localhost:5000/filmes](http://localhost:5000/filmes) com os detalhes do filme em formato JSON.
-   - Atualizar informações de um filme: Envie uma solicitação PUT para [http://localhost:5000/filmes/<filme_id>](http://localhost:5000/filmes/<filme_id>) com os detalhes atualizados do filme em formato JSON.
-   - Excluir um filme: Envie uma solicitação DELETE para [http://localhost:5000/filmes/<filme_id>](http://localhost:5000/filmes/<filme_id>).
 
 
 
